@@ -1,14 +1,26 @@
 {
-  "main.css": "/singlePage/static/css/main.7f517ded.chunk.css",
-  "main.js": "/singlePage/static/js/main.0ae08c0a.chunk.js",
-  "main.js.map": "/singlePage/static/js/main.0ae08c0a.chunk.js.map",
-  "static/js/1.00388adb.chunk.js": "/singlePage/static/js/1.00388adb.chunk.js",
-  "static/js/1.00388adb.chunk.js.map": "/singlePage/static/js/1.00388adb.chunk.js.map",
-  "runtime~main.js": "/singlePage/static/js/runtime~main.17ac60d1.js",
-  "runtime~main.js.map": "/singlePage/static/js/runtime~main.17ac60d1.js.map",
-  "static/media/logo.png": "/singlePage/static/media/logo.f4f0fd7b.png",
-  "static/css/main.7f517ded.chunk.css.map": "/singlePage/static/css/main.7f517ded.chunk.css.map",
-  "index.html": "/singlePage/index.html",
-  "precache-manifest.eac879a39f3612d6b21e589a66795041.js": "/singlePage/precache-manifest.eac879a39f3612d6b21e589a66795041.js",
-  "service-worker.js": "/singlePage/service-worker.js"
+  "files": {
+    "main.css": "/singlePage/static/css/main.0ed71535.chunk.css",
+    "main.js": "/singlePage/static/js/main.aa49fe5c.chunk.js",
+    "main.js.map": "/singlePage/static/js/main.aa49fe5c.chunk.js.map",
+    "runtime-main.js": "/singlePage/static/js/runtime-main.fb5bf35e.js",
+    "runtime-main.js.map": "/singlePage/static/js/runtime-main.fb5bf35e.js.map",
+    "static/js/2.ff08fda8.chunk.js": "/singlePage/static/js/2.ff08fda8.chunk.js",
+    "static/js/2.ff08fda8.chunk.js.map": "/singlePage/static/js/2.ff08fda8.chunk.js.map",
+    "index.html": "/singlePage/index.html",
+    "precache-manifest.bc710ac2fc37327f3795857217425500.js": "/singlePage/precache-manifest.bc710ac2fc37327f3795857217425500.js",
+    "service-worker.js": "/singlePage/service-worker.js",
+    "static/css/main.0ed71535.chunk.css.map": "/singlePage/static/css/main.0ed71535.chunk.css.map",
+    "static/js/2.ff08fda8.chunk.js.LICENSE.txt": "/singlePage/static/js/2.ff08fda8.chunk.js.LICENSE.txt",
+    "static/media/budget.jpg": "/singlePage/static/media/budget.d3ac744b.jpg",
+    "static/media/face.jpg": "/singlePage/static/media/face.e4522b9d.jpg",
+    "static/media/hotel.jpeg": "/singlePage/static/media/hotel.ce0abb04.jpeg",
+    "static/media/logo.png": "/singlePage/static/media/logo.f4f0fd7b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb5bf35e.js",
+    "static/js/2.ff08fda8.chunk.js",
+    "static/css/main.0ed71535.chunk.css",
+    "static/js/main.aa49fe5c.chunk.js"
+  ]
 }
