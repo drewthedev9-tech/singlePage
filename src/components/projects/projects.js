@@ -45,7 +45,7 @@ constructor() {
            backCardSub: " Javascript budgeting web app ",
            backCardDesc :" web app using DOm manipulation with Vanilla Js", 
              git: "https://github.com/drewthedev9-tech/budegtapp",
-             lnk: "https://drewthedev9-tech.github.io/budegtapp/",
+             link: "https://drewthedev9-tech.github.io/budegtapp/",
          }
 
            
