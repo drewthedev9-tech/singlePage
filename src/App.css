@@ -1,0 +1,24 @@
+/* :root {
+  --off-white: rgba(6, 23, 177, 0.157);
+} */
+/* reset for all browsers selecting all elmenst to have ) padding etc. */
+* {
+  list-style: none;
+  padding :0px;
+}
+
+
+
+
+.section-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+
+
+
+
+
+ 

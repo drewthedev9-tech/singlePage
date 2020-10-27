@@ -1,0 +1,149 @@
+.nav {
+    /* background-color: var(--off-white); */
+    background-color: rgb(61, 25, 95);
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15); 
+  }
+  
+  .nav-logo {
+    height: 60px;
+    width: 60px;
+  }
+  
+  .nav-logo:hover {
+    cursor: pointer;
+  }
+  
+  .nav-content {
+    padding: 0rem 15rem;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .nav-item {
+    display: inline-flex;
+    margin-left: 2rem;
+    color:white;
+    font-size: 1.25rem;
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  .nav-item:hover {
+    color:blue;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 1000px) {
+      .nav-content{
+        padding: 0rem 5rem;
+    }
+}
+   
+/* CSS for screen above 450px + */
+
+@media only screen and (min-width: 450px){
+    .burger-open {
+      display: none;
+    }
+  
+  .sideBar{
+    display: none;
+  }
+  
+  }
+  
+  /* CSS displayed at 450px or less*/
+  /* anything over 450px will switch back to normal display */
+   @media only screen and (max-width: 449px) {
+         
+       
+  
+        .nav-content{
+          display: none;
+        }
+  
+        
+        .burger-open{
+          display: block;
+          font-size: 20px;
+          cursor: pointer;
+          color: white;
+          padding: 25px 25px;
+          border: none;
+          margin-top: none;
+        }
+        /* actually another burger over the close burger */
+        .burger-close{
+
+          display: inline-block;
+          font-size: 20px;
+          cursor: pointer;
+          color: white;
+          padding: 25px 25px;
+          border: none;
+          margin-top: none;
+        }
+  
+        /* items in teh side bar */
+        .nav-item{
+          display: block;
+          padding: 20px 20px 20px 20px;
+        }
+        
+  
+        .sideBar{
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          opacity: .8;
+          background-color: #111;
+          overflow-x: hidden;
+          transition: 0.3s;
+         
+        }
+  
+        .back-end{
+          border-left:none;
+          text-align: center;
+          border-top: 3px solid grey;
+          padding-top: 20px;
+        }
+  
+        .back-end-skills{
+          display: grid;
+          grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+        }
+  
+        /* front end rows */
+        .row1{
+  
+          display: grid;
+          grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+          
+        }
+        .row2{
+  
+          display: grid;
+          grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+          
+        }
+        
+  
+         .front-end{
+         padding-top: 20px;
+         text-align: center;
+         }
+  
+         
+  
+   }

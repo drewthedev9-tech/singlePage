@@ -1,0 +1,23 @@
+.footer {
+    align-items:center;
+    height: 80px;
+    bottom:0;
+    background-color: black;
+    display: flex;
+    padding: 0 15rem;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer{
+      
+        padding: 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    .footer{
+      
+        padding: 0 3rem;
+    }
+}
